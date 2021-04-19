@@ -1,0 +1,9 @@
+.container {
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+  &--position{
+    position: relative;
+    z-index: 10;
+  }
+}
