@@ -3,7 +3,7 @@ display: flex;
 justify-content: space-between;
 }
 .img-container__box-one{
-  max-width: 655px;
+  max-width: 690px;
   width: 100%;
   margin-right: 10px;
 }
@@ -47,6 +47,11 @@ margin-right: 10px;
 .img-container__box-six-img{
   object-fit: cover;
   height: 100%;
+}
+.img-container__box-six-img{
+  &--left{
+    margin-right: 20px;
+  }
 }
 
 @include breakpoint-down(1150){
