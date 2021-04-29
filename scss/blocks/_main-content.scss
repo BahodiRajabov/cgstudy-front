@@ -44,6 +44,7 @@ color: #FFFFFF;
 @include breakpoint-down(400){
   .main-content__link{
     transform: translateX(55px);
+    margin-bottom: 20px;
   }
 }
 @include breakpoint-down(370){

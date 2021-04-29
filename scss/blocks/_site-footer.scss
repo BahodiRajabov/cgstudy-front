@@ -65,6 +65,10 @@ color: #000000;
 .site-footer__item-text{
 margin: 0;
 }
+.site-footer__tell-box{
+  display: flex;
+  align-items: center;
+}
 
 @include breakpoint-down(680){
   .site-footer__box{
@@ -85,5 +89,10 @@ margin-bottom: 10px;
   .site-footer__telegram--left{
 margin-right: 0px;
 margin-bottom: 10px;
+  }
+}
+@include breakpoint-down(400){
+  .site-footer__text{
+    margin-right: 10px;
   }
 }

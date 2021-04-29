@@ -615,6 +615,7 @@ img {
   .main-content__link {
     -webkit-transform: translateX(55px);
             transform: translateX(55px);
+    margin-bottom: 20px;
   }
 }
 
@@ -869,6 +870,15 @@ img {
   margin: 0;
 }
 
+.site-footer__tell-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media only screen and (max-width: 680px) {
   .site-footer__box {
     -webkit-box-orient: vertical;
@@ -891,6 +901,12 @@ img {
   .site-footer__telegram--left {
     margin-right: 0px;
     margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .site-footer__text {
+    margin-right: 10px;
   }
 }
 
