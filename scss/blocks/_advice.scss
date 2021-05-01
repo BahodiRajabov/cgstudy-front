@@ -83,7 +83,7 @@ color: rgba(0, 0, 0, 0.8);
 @include breakpoint-down(340){
   .advice__title{
        &--last{
-        font-size: 15px;
+        font-size: 10px;
     }
   }
 }
