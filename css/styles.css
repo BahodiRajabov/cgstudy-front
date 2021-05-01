@@ -1256,9 +1256,13 @@ img {
     font-size: 12px;
     line-height: 188%;
   }
-  .advice__title--last {
+  .advice__title {
     font-weight: 700;
     font-size: 20px;
+  }
+  .advice__title--last {
+    font-weight: 700;
+    font-size: 18px;
   }
 }
 
