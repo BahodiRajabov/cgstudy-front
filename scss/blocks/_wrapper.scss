@@ -11,3 +11,8 @@
 .pad{
 padding-top: 50px ;
 }
+@include breakpoint-down(400){
+  .pad{
+    padding-top: 0px;
+  }
+}

@@ -908,6 +908,9 @@ img {
   .site-footer__text {
     margin-right: 10px;
   }
+  .site-footer__img {
+    margin-right: 10px;
+  }
 }
 
 .wrapper {
@@ -922,6 +925,12 @@ img {
 
 .pad {
   padding-top: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .pad {
+    padding-top: 0px;
+  }
 }
 
 .img-container {
