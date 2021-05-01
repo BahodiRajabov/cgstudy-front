@@ -43,10 +43,10 @@ margin-left: auto;
 
 
 .site-header--open .site-header__menu{
-  background-image: url("../../img/close.png");
+  background-image: url("../../img/20827682791581405242.svg");
 position: relative;
 z-index: 50;
-background-color: #fff;
+background-color: transparent;
 }
 
 @include breakpoint-down(1150){

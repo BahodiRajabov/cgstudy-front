@@ -7,3 +7,10 @@
     z-index: 10;
   }
 }
+@include breakpoint-down(670){
+  .container{
+    &--position{
+      position: static;
+    }
+  }
+}
