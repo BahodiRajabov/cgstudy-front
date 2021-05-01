@@ -784,6 +784,26 @@ img {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .hero__price-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .hero__item-box-img {
+    width: 20px;
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+  .hero__item-sp {
+    margin-bottom: 0;
+  }
+}
+
 .site-footer {
   margin-top: auto;
 }
@@ -907,6 +927,10 @@ img {
 @media only screen and (max-width: 400px) {
   .site-footer__img {
     margin-right: 10px;
+  }
+  .site-footer__list {
+    font-weight: 400;
+    font-size: 10px;
   }
 }
 
@@ -1212,6 +1236,30 @@ img {
   letter-spacing: 0.02em;
   color: #333333;
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+  .advice__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .advice__title {
+    margin-right: 0px;
+  }
+  .advice__text {
+    font-size: 11px;
+    line-height: 188%;
+  }
+  .advice__text--top {
+    font-size: 11px;
+    line-height: 188%;
+  }
+  .advice__title {
+    font-weight: 400;
+    font-size: 20px;
+  }
 }
 
 .main-videos__heading {
