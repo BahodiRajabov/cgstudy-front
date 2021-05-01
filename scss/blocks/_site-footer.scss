@@ -92,10 +92,7 @@ margin-bottom: 10px;
   }
 }
 @include breakpoint-down(400){
-  .site-footer__text{
-    margin-right: 10px;
-  }
-  .site-footer__img{
+    .site-footer__img{
     margin-right: 10px;
   }
 }
