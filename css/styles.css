@@ -1266,9 +1266,9 @@ img {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 340px) {
   .advice__title--last {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 

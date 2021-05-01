@@ -80,10 +80,10 @@ color: rgba(0, 0, 0, 0.8);
   }
 }
 }
-@include breakpoint-down(360){
+@include breakpoint-down(340){
   .advice__title{
        &--last{
-        font-size: 17px;
+        font-size: 15px;
     }
   }
 }
