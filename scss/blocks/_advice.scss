@@ -64,15 +64,17 @@ color: rgba(0, 0, 0, 0.8);
   margin-right: 0px;
 }
 .advice__text{
-  font-size: 11px;
+  font-size: 12px;
   line-height: 188%;
   &--top{
-    font-size: 11px;
+    font-size: 12px;
     line-height: 188%;
   }
 }
 .advice__title{
-  font-weight: 400;
-  font-size: 20px;
+  &--last{
+    font-weight: 700;
+    font-size: 20px;
+  }
 }
 }

@@ -1249,15 +1249,15 @@ img {
     margin-right: 0px;
   }
   .advice__text {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 188%;
   }
   .advice__text--top {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 188%;
   }
-  .advice__title {
-    font-weight: 400;
+  .advice__title--last {
+    font-weight: 700;
     font-size: 20px;
   }
 }
