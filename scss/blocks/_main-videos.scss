@@ -20,6 +20,9 @@ color: #000000;
 }
 .main-videos__item{
   margin-bottom: 50px;
+  max-width: 230px;
+  width: 100%;
+  overflow-x: hidden;
   &:not(:nth-child(5n)){
 margin-right: 37px;
 
@@ -33,10 +36,15 @@ margin: 0;
 margin-top: 10px;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 18px;
 line-height: 170%;
 letter-spacing: 0.02em;
 color: #000000;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+width: 100%;
+max-width: 100%;
 }
 @include breakpoint-down(1390){
   .main-videos__item{
