@@ -159,7 +159,7 @@ if (videosPage) {
 
     const NewItem = TemplateVideo.cloneNode(true);
     $_(".main-videos__item-video", NewItem).src = video.src
-    $_(".main-videos__item-title", NewItem).src = video.title
+    $_(".main-videos__item-title", NewItem).textContent = video.title
 
     elVideoFragment.appendChild(NewItem)
 
