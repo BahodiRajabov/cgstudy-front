@@ -41,6 +41,13 @@ color: #FFFFFF;
     display: block;
   }
 }
+
+@include breakpoint-down(700){
+  .main-content__link{
+    margin-bottom: 10px;
+     }
+}
+
 @include breakpoint-down(415){
   .main-content__link{
     transform: translateX(60px);
@@ -50,7 +57,6 @@ color: #FFFFFF;
 @include breakpoint-down(400){
   .main-content__link{
     transform: translateX(55px);
-    margin-bottom: 20px;
   }
 }
 @include breakpoint-down(370){

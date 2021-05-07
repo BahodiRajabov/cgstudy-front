@@ -28,11 +28,6 @@ if (videosPage) {
 
   const videos = [
     {
-      "id": 0,
-      "title": "3ds MAX | 9-Dars - Magnit",
-      "src": "https://www.youtube.com/embed/l1D3A2Z14bM"
-    },
-    {
       "id": 1,
       "title": "3ds MAX | 24-Dars — Merge file",
       "src": "https://www.youtube.com/embed/ai9yAKbSInM"
@@ -106,6 +101,11 @@ if (videosPage) {
       "id": 15,
       "title": "3ds MAX | 10-Dars — Shapes 3 qism",
       "src": "https://www.youtube.com/embed/DvTng_ph17w"
+    },
+    {
+      "id": 0,
+      "title": "3ds MAX | 9-Dars - Magnit",
+      "src": "https://www.youtube.com/embed/l1D3A2Z14bM"
     },
     {
       "id": 16,

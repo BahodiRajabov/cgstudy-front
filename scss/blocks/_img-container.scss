@@ -103,7 +103,7 @@ flex-direction: column;
     display: none;
   }
   .img-container__box-two{
-    top: 720px;
+    top: 760px;
   }
 }
 @include breakpoint-down(650){
@@ -138,16 +138,11 @@ img{
 }
 @include breakpoint-down(430){
   .img-container__box-two{
-    top: 820px;
+    top: 860px;
   }
 }
 @include breakpoint-down(390){
   .img-container__box-two{
-    top: 840px;
-  }
-}
-@include breakpoint-down(372){
-  .img-container__box-two{
-    top: 860px;
+    top: 940px;
   }
 }
